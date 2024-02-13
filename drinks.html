@@ -39,9 +39,11 @@
     </div>
     <br>
     <p>
-        When we reduce the size of the screen, we observe that the row with drink name will break first beacause it uses 'col-md' class,
+        When we reduce the size of the screen, we observe that the row with drink name will break first beacause it uses
+        'col-md' class,
         that is it is adjusted to screen size changes very easily especially on smaller and medium screens.
-        But the row with letters, is having more stable layout in any kind of screen sizes beacuse it uses 'col-sm-2' class.  
+        But the row with letters, is having more stable layout in any kind of screen sizes beacuse it uses 'col-sm-2'
+        class.
     </p>
     <div class="container">
         <img src="KiwiJuice.jpg" class="img-fluid" alt="Kiwi Juice-Image" height="400" width="400">
@@ -59,7 +61,7 @@
     <br>
     <br>
 
-    <table class = "table table-bordered  table-hover table-striped table caption-top table-sm">
+    <table class="table table-bordered  table-hover table-striped table caption-top table-sm">
         <caption>Drinks, Star Names and Fishes</caption>
         <thead class="table-light">
             <tr>
@@ -113,27 +115,72 @@
     <br>
     <nav class="navbar" style="background-color:darkcyan">
         <div class="container-fluid">
-          <span class="navbar-brand mb-0 h1" href="#">BUTTON GROUPS - LETTERS</span>
+            <span class="navbar-brand mb-0 h1" href="#">BUTTON GROUPS - LETTERS</span>
         </div>
     </nav>
     <br>
     <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
         <div class="btn-group me-2" role="group" aria-label="Image-Sucess-Button">
-          <button type="button" class="btn btn-success">K</button>
-          <button type="button" class="btn btn-success">A</button>
-          <button type="button" class="btn btn-success">N</button>
+            <button type="button" class="btn btn-success">K</button>
+            <button type="button" class="btn btn-success">A</button>
+            <button type="button" class="btn btn-success">N</button>
         </div>
 
         <div class="btn-group me-2" role="group" aria-label="Alert-Button">
-          <button type="button" class="btn btn-warning">D</button>
-          <button type="button" class="btn btn-warning">I</button>
+            <button type="button" class="btn btn-warning">D</button>
+            <button type="button" class="btn btn-warning">I</button>
         </div>
 
         <div class="btn-group" role="group" aria-label="Danger-Button">
-          <button type="button" class="btn btn-danger">O</button>
+            <button type="button" class="btn btn-danger">O</button>
         </div>
-      </div>
-      <br>
+    </div>
+    <br>
+    <br>
+    <nav class="navbar" style="background-color:darkseagreen">
+        <div class="container-fluid">
+            <span class="navbar-brand mb-0 h1" href="#">DROPDOWN - LETTERS</span>
+        </div>
+    </nav>
+    <br>
+    <div class="btn-group" role="group" aria-label="Nested Dropdown - with Button Groups">
+        <div class="btn-group">
+            <button class="btn btn-primary active dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                K
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">K</a></li>
+                <li><a class="dropdown-item" href="#">A</a></li>
+                <li><a class="dropdown-item" href="#">N</a></li>
+                <li><a class="dropdown-item" href="#">D</a></li>
+                <li><a class="dropdown-item" href="#">I</a></li>
+                <li><a class="dropdown-item" href="#">O</a></li>
+            </ul>
+        </div>
+        <button type="button" class="btn btn-primary">A</button>
+        <button type="button" class="btn btn-primary">N</button>
+        <button type="button" class="btn btn-primary">D</button>
+        <button type="button" class="btn btn-primary">I</button>
+        <button type="button" class="btn btn-primary">O</button>
+    </div>
+    <br>
+    <br>
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown-Reference Pages
+        </button>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="basic.html">Basic HTML Page</a></li>
+            <li><a class="dropdown-item" href="advanced.html">Advanced HTML Page</a></li>
+        </ul>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
 </body>
 
 </html>
